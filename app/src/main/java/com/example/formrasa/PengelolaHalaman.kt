@@ -3,8 +3,6 @@ package com.example.formrasa
 @file:OptIn(ExperimentalMaterial3Api::class,
     ExperimentalMaterial3Api::class)
 
-package com.example.projectpam
-
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
@@ -24,7 +22,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.getValue
 import androidx.navigation.NavHostController
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.projectpam.data.SumberData.flavors
+import com.example.formrasa.data.SumberData.flavors
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
