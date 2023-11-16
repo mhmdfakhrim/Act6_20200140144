@@ -1,7 +1,7 @@
-package com.example.formrasa
-
 @file:OptIn(ExperimentalMaterial3Api::class,
     ExperimentalMaterial3Api::class)
+
+package com.example.formrasa
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
@@ -123,7 +123,7 @@ fun EsJumboApp(
             composable(route = PengelolaHalaman.Summary.name) {
                 HalamanDua(
                     orderUIState = uiState,
-                    contactUiState = uiStateForm,
+                    contactUIState = uiStateForm,
                     onCancelButtonClicked = {
                         cancelOrderAndNavigateToRasa(navController) },
                 )
